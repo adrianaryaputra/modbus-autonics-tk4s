@@ -49,9 +49,9 @@ class ModbusDevice_T4RN extends ModbusDevice{
 
 
 const ModbusDevice_T4RN_address = Object.freeze({
-    productNumber: {
+    presentValue: {
         command: ModbusCommand.readInputRegisters,
-        address: 0x0064,
+        address: 0x03e8,
         length: 2,
         writable: false,
     }
