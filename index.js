@@ -54,6 +54,13 @@ const ModbusDevice_T4RN_address = Object.freeze({
         address: 0x0068,
         length: 4,
         writable: false,
+    },
+
+    presentValue: {
+        command: ModbusCommand.readInputRegisters,
+        address: 0x03e8,
+        length: 1,
+        writable: false,
     }
 })
 
