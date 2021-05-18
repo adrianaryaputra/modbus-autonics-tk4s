@@ -20,8 +20,7 @@ class ModbusDevice_T4RN extends ModbusDevice{
             modbusId,
             modbusTimeout,
         });
-        this.type = ModbusDevice_FX3U_type;
-        this.address = ModbusDevice_FX3U_address;
+        this.address = ModbusDevice_T4RN_address;
     }
 
     get({
