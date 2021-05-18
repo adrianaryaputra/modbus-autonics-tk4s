@@ -1,0 +1,14 @@
+{
+  "name": "modbus-autonics-tk4s",
+  "version": "1.0.0",
+  "description": "modbus communication for TK4S temperature controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adrianaryaputra",
+  "license": "MIT",
+  "dependencies": {
+    "com-modbus": "git+https://github.com/adrianaryaputra/com-modbus.git"
+  }
+}
